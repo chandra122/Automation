@@ -1,0 +1,29 @@
+development:
+  database:
+    host: localhost
+    port: 5432
+    name: crm_dev
+    user: dev_user
+  api:
+    base_url: http://localhost:8000
+    timeout: 30
+
+production:
+  database:
+    host: db.production.com
+    port: 5432
+    name: crm_prod
+    user: prod_user
+  api:
+    base_url: https://api.production.com
+    timeout: 60
+
+test:
+  database:
+    host: localhost
+    port: 5432
+    name: crm_test
+    user: test_user
+  api:
+    base_url: http://localhost:8000
+    timeout: 10 

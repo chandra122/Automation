@@ -1,0 +1,18 @@
+{
+    "app_settings": {
+        "debug_mode": false,
+        "log_level": "INFO",
+        "max_retries": 3,
+        "timeout": 30
+    },
+    "crm_settings": {
+        "api_version": "v2.0",
+        "batch_size": 100,
+        "retry_delay": 5
+    },
+    "scheduling": {
+        "analysis_interval": "24h",
+        "scoring_interval": "12h",
+        "task_check_interval": "1h"
+    }
+} 
