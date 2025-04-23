@@ -1,0 +1,5 @@
+*.py linguist-language=Python
+*.md linguist-language=Markdown
+*.txt linguist-language=Text
+*.env linguist-language=Text
+*.env.example linguist-language=Text 
