@@ -1,5 +1,30 @@
+# Python source files
 *.py linguist-language=Python
+*.pyw linguist-language=Python
+*.pyx linguist-language=Python
+
+# Documentation
 *.md linguist-language=Markdown
+*.rst linguist-language=reStructuredText
+
+# Configuration files
 *.txt linguist-language=Text
 *.env linguist-language=Text
-*.env.example linguist-language=Text 
+*.env.example linguist-language=Text
+*.ini linguist-language=INI
+*.cfg linguist-language=INI
+*.yaml linguist-language=YAML
+*.yml linguist-language=YAML
+*.json linguist-language=JSON
+
+# Python cache files (to be ignored in language stats)
+*.pyc linguist-generated=true
+*.pyo linguist-generated=true
+__pycache__/* linguist-generated=true
+
+# Dependencies
+requirements.txt linguist-detectable=true
+
+# Documentation detection
+*.md linguist-documentation=false
+README.md linguist-documentation=false 
